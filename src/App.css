@@ -1,0 +1,116 @@
+#root {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888888;
+}
+
+label {
+  font-weight: bold;
+  display: flex;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="data"] {
+  display: block;
+  width: 400px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #000000;
+  background-image: none;
+  border: 1px solid #000000;
+  /* black*/
+  border-radius: 4px;
+}
+
+.form-control {
+  margin-bottom: 6px;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  text-align: left;
+}
+
+.product {
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.product h3 {
+  margin: 0;
+}
+
+.product label,
+.product select,
+.product input {
+  display: inline-block;
+  margin: 5px 10px;
+  margin-bottom: 0;
+}
+
+.product label {
+  width: 70px;
+}
+
+.product input {
+  max-width: 250px;
+}
+
+#form,
+.products-container,
+.form-control {
+  width: 100%;
+}
+
+/* #imageUpload {
+  font-size: small;
+  margin-bottom: 10px;
+} */
+  
+.addbuyer-button,
+.search {
+
+  display: inline-block;
+
+}
+
+.search {
+  margin: 0 10px;
+}
+
+#buyer-select {
+  display: flex;
+}
+
+.submit-buttons {
+  display: inline-block;
+  margin: 10px;
+  color: #ededed;
+}
+
+.products-container h1{
+  margin: 20px;
+  margin-top: 0;
+}
+
+#date{
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 10px;
+}
